@@ -1,0 +1,19 @@
+1) Explique, com suas palavras, o que é machine learning?
+
+É a principal subárea da inteligência artificial e pode ser definido como a ciência que faz com que os programas de computador aprendam a partir de dados.
+
+2) Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
+
+De forma geral, dividimos o conjunto de dados em três subconjuntos: treinamento, validação e teste. O conjunto de treinamento é utilizado durante a etapa de aprendizado do modelo, ou seja, na atualização dos pesos da rede. Já o conjunto de validação serve para selecionar os hiperparâmetros, tais como número de neurônios ocultos e número de camadas ocultas, por exemplo. Já o conjunto de testes é utilizado para avaliar o desempenho do modelo, verificando se a rede foi capaz de generalizar a partir dos dados de treinamento.
+
+3) Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento.
+
+Existem algumas opções: poderia excluir essas instâncias com dados faltantes do conjunto de dados ou poderia fazer com os atributos faltantes tivessem os valores médios, considerando as outras instâncias.
+
+4) O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
+
+É uma matriz que mostra como o modelo classifica cada instância do conjunto de dados, em função das classes reais e das classes preditas. Podemos usar ela para calcular as outras figuras de mérito e para verificar quais são as classes que o modelo tem maior dificuldade de classificar, algo como o modelo prediz que a o elemento da classe A é da classe B e que o elemento da classe B é da classe A.
+
+5) Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) você acha mais interessante aplicar algoritmos de machine learning?
+
+Existem muitas aplicações interessantes de ML, tais como na robótica (por exemplo, o controle de um manipulador poderia ser realizado a partir das informações obtidas de uma câmera) e na área de materiais (por exemplo, na classificação o tipo de ferro fundido a partir de microscopias, ou na determinação do tamanho de grão dessas imagens).
